@@ -1,0 +1,31 @@
+.fa-house::before {
+    content: "\f015"; 
+}
+
+.fa-plus-square::before {
+        content: "\f0fe"; }
+
+    
+.fa-magnifying-glass::before {
+    content: "\f002"; 
+}
+
+.fa-star::before {
+    content: "\f005";
+}
+
+.fa-film::before{
+    content: "\f008";
+}
+
+.fa-tv::before {
+    content: "\f26c";
+}
+
+.fa-ellipsis-vertical::before {
+    content: "\f142";
+}
+
+
+
+  

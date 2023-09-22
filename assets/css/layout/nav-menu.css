@@ -1,0 +1,39 @@
+.nav-menu {
+margin-left: 3.7rem;
+}
+
+.nav-menu_item {
+    display: inline;
+}
+
+.nav-menu_link {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    padding: 3rem 2rem;
+    text-transform: uppercase;
+}
+
+
+
+.nav-menu_text {
+    margin-left: 1.1rem;
+    position: relative;
+}
+
+.nav-menu_text::before {
+    background: #fff;
+    bottom: -.7rem;
+    content: "";
+    height: 2px;
+    position: absolute;
+    width: 0;
+    transition: .2s;
+}
+
+.nav-menu_link:hover .nav-menu_text::before {
+width: 100%;
+
+}
+

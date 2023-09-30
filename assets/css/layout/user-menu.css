@@ -5,18 +5,8 @@
     
 }
 
-.user-menu .show-hover {
-    display: none;
- }
-
- .user-menu:hover .show-hover {
-   
-    display: block;
- 
-}
-
 .user-menu_background {
-    animation: slideDown .7s;
+    animation: slideDown .4s;
     position: absolute;
     background-color: #141414;
     border: 1px solid #393939;
@@ -73,7 +63,17 @@
  .user-menu_profiles, 
  .user-menu_options {
 
-animation: showFade .2s;
+animation: showFade .3s;
 
  }
+
+ .user-menu .show-hover {
+    display: none;
+ }
+
+ .user-menu:hover .show-hover {
+   
+    display: block;
+ 
+}
 
